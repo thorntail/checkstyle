@@ -15,7 +15,7 @@
   </parent>
 
   <artifactId>checkstyle-config</artifactId>
-  <version>2-SNAPSHOT</version>
+  <version>2</version>
 
   <name>WildFly Swarm: Checkstyle Configuration</name>
   <description>WildFly Swarm: Checkstyle Configuration</description>
@@ -24,7 +24,7 @@
     <connection>scm:git:git@github.com:wildfly-swarm/checkstyle.git</connection>
     <developerConnection>scm:git:git@github.com:wildfly-swarm/checkstyle.git</developerConnection>
     <url>https://github.com/wildfly-swarm/checkstyle</url>
-    <tag>HEAD</tag>
+    <tag>2</tag>
   </scm>
 
   <build>
