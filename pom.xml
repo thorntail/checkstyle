@@ -9,15 +9,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.jboss</groupId>
-    <artifactId>jboss-parent</artifactId>
-    <version>19</version>
+    <groupId>org.wildfly.swarm</groupId>
+    <artifactId>parent</artifactId>
+    <version>7</version>
     <relativePath/>
   </parent>
 
-  <groupId>org.wildfly.swarm</groupId>
   <artifactId>checkstyle-config</artifactId>
-  <version>1.0.0.Final-SNAPSHOT</version>
+  <version>0.1.0-SNAPSHOT</version>
 
   <name>WildFly Swarm: Checkstyle Configuration</name>
   <description>WildFly Swarm: Checkstyle Configuration</description>
@@ -29,25 +28,6 @@
     <tag>HEAD</tag>
   </scm>
 
-  <licenses>
-    <license>
-      <name>Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
-
   <build>
     <extensions>
       <extension>
@@ -57,28 +37,5 @@
       </extension>
     </extensions>
   </build>
-
-  <profiles>
-    <profile>
-      <id>release</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>sign-artifacts</id>
-                <phase>verify</phase>
-                <goals>
-                  <goal>sign</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
 
 </project>
