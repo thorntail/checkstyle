@@ -108,7 +108,10 @@
     <!-- RIGHT: int[] buff WRONG: inf buff[] -->
     <module name="ArrayTypeStyle"/>
 
-    <module name="MultipleStringLiterals"/>
+    <module name="MultipleStringLiterals">
+      <property name="allowedDuplicates" value="3"/>
+      <property name="ignoreStringsRegexp" value='^(("")|(", "))$'/>
+    </module>
 
     <module name="StringLiteralEquality"/>
 
