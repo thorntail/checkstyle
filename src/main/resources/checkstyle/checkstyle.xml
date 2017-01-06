@@ -110,7 +110,7 @@
 
     <module name="MultipleStringLiterals">
       <property name="allowedDuplicates" value="3"/>
-      <property name="ignoreStringsRegexp" value='^(("")|(", "))$'/>
+      <property name="ignoreStringsRegexp" value='^(("")|(", ")|(":")|("/"))$'/>
     </module>
 
     <module name="StringLiteralEquality"/>
