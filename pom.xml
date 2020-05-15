@@ -15,7 +15,7 @@
   </parent>
 
   <artifactId>checkstyle-config</artifactId>
-  <version>4-SNAPSHOT</version>
+  <version>4</version>
 
   <name>Thorntail: Checkstyle Configuration</name>
   <description>Thorntail: Checkstyle Configuration</description>
@@ -24,7 +24,7 @@
     <connection>scm:git:git@github.com:thorntail/checkstyle.git</connection>
     <developerConnection>scm:git:git@github.com:thorntail/checkstyle.git</developerConnection>
     <url>https://github.com/thorntail/checkstyle</url>
-    <tag>HEAD</tag>
+    <tag>4</tag>
   </scm>
 
   <build>
