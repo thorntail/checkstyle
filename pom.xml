@@ -8,22 +8,22 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.wildfly.swarm</groupId>
+    <groupId>io.thorntail</groupId>
     <artifactId>parent</artifactId>
-    <version>7</version>
+    <version>11</version>
     <relativePath />
   </parent>
 
   <artifactId>checkstyle-config</artifactId>
   <version>4-SNAPSHOT</version>
 
-  <name>WildFly Swarm: Checkstyle Configuration</name>
-  <description>WildFly Swarm: Checkstyle Configuration</description>
+  <name>Thorntail: Checkstyle Configuration</name>
+  <description>Thorntail: Checkstyle Configuration</description>
 
   <scm>
-    <connection>scm:git:git@github.com:wildfly-swarm/checkstyle.git</connection>
-    <developerConnection>scm:git:git@github.com:wildfly-swarm/checkstyle.git</developerConnection>
-    <url>https://github.com/wildfly-swarm/checkstyle</url>
+    <connection>scm:git:git@github.com:thorntail/checkstyle.git</connection>
+    <developerConnection>scm:git:git@github.com:thorntail/checkstyle.git</developerConnection>
+    <url>https://github.com/thorntail/checkstyle</url>
     <tag>HEAD</tag>
   </scm>
 
